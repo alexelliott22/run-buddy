@@ -44,6 +44,7 @@ header nav ul li a {
     font-size: 22px;
   }
 
+  /* add styles to footer */
 footer {
     background: #fce138;
     width: 100%;
@@ -65,4 +66,43 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+/* Hero style sheet */
+.hero {
+  height: 600px;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* hero style end */ 
+
+/* hero form */
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #024e76;
+}
+
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 15px 0;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
 }
