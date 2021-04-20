@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10 15px;
     font-weight: lighter;
     font-size: 1.55vw;
   }
@@ -82,6 +82,7 @@ footer a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 /* hero style end */ 
 
@@ -132,7 +133,7 @@ footer a {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -143,7 +144,7 @@ footer a {
 /* hero styles end*/ 
 
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   color: #024e76;
   border-bottom: 3px solid;
   padding-bottom: 20px;
@@ -338,4 +339,17 @@ section div span {
 
 .trainer-bio h3 {
   font-size: 28px;
+}
+
+/*media query for smaller desktop*/
+@media screen and (max-width: 980px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 575px) {
+  
 }
